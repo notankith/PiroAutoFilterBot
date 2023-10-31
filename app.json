@@ -1,6 +1,6 @@
 {
     "name": "PiroAutoFilterBot",
-    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "description": "MADE BY ANKITH SN!!",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/ritheshrkrm/PiroAutoFilterBot",
-    "repository": "https://github.com/ritheshrkrm/PiroAutoFilterBot",
+    "website": "https://github.com/notankith/PiroAutoFilterBot",
+    "repository": "https://github.com/notankith/PiroAutoFilterBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
