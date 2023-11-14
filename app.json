@@ -1,6 +1,6 @@
 {
-    "name": "PiroAutoFilterBot",
-    "description": "MADE BY ANKITH SN!!",
+    "name": "DQ-The-File-Donor",
+    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -16,18 +16,21 @@
       "inline"
     ],
     "website": "https://github.com/notankith/PiroAutoFilterBot",
-    "repository": "https://github.com/notankith/PiroAutoFilterBot",
+    "repository": "https://github.com/Joelkb/DQ-the-file-donor",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
+             "value": "6063426662:AAEGOd19Oc6u2hQGWN0IW1lf2oPl5n0G9Uo",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "26922303",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "98bdd4d6d779f387aab487bb5d050f0c",
             "required": true
         },
         "CHANNELS": {
@@ -36,6 +39,7 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "CL4SSYY",
             "required": true
         },
         "PICS": {
@@ -44,6 +48,7 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "-1002076055508",
             "required": true
         },
         "AUTH_USERS": {
@@ -56,10 +61,12 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "mongodb+srv://cr7:love@cluster0.m9qgnbk.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "Cluster0",
             "required": false
         },
         "COLLECTION_NAME": {
